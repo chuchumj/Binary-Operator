@@ -18,14 +18,11 @@ class Main
     }
     public static void simulate(String mode)
     {
-        // your code
-         mode = mode;
+
 
     }
     public static void main(String[] args)
     {
-        // your test code
-
         simulate((x,y)->{return 2*x + 3*y;});
         simulate("mul");
     }
